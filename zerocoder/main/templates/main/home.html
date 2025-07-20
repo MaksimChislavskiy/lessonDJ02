@@ -1,0 +1,23 @@
+{% extends 'main/layoute.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h1>Добро пожаловать на наш сайт!</h1>
+        <p class="lead">Мы предлагаем лучшие услуги в своей области.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
+        <a href="{% url 'services' %}" class="btn btn-primary">Наши услуги</a>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Специальное предложение</h5>
+                <p class="card-text">Воспользуйтесь нашими услугами со скидкой 20% до конца месяца!</p>
+                <a href="{% url 'contact' %}" class="btn btn-success">Связаться с нами</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

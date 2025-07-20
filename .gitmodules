@@ -1,0 +1,3 @@
+[submodule "lessonDJ01"]
+	path = lessonDJ01
+	url = git@github.com:MaksimChislavskiy/lessonDJ01.git
